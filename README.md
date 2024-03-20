@@ -1,18 +1,18 @@
 A weboldal elérhető a https://d2n74krpt0dbll.cloudfront.net/ linken.
 
 ### A fejlesztői környezethez szükséges szoftverek
-+ Docker Desktop: Windows rendszereken szükséges telepíteni a dockerhez a wsl linux futtatói környezetet. Adminisztrátorként megnyitva egy command promptot:
+Docker Desktop: Windows rendszereken szükséges telepíteni a dockerhez a wsl linux futtatói környezetet. Adminisztrátorként megnyitva egy command promptot:
 ```console
 wsl --install
 ```
 Ez feltelepíti az ubuntu-t windowsra.
-+ A docker telepítése után a docker beállításokban: settings -> resources -> wsl
+A docker telepítése után a docker beállításokban: settings -> resources -> wsl
 integration -> ubuntu -t szükséges bekapcsolni.
-+ windowsban megnyitva az ubuntu command promptot:
+windowsban megnyitva az ubuntu command promptot:
 ```console
 git clone https://github.com/Laszlo-Huszar/etterem-app-vizsga
 ```
-+ A projekt könyvtárba belépve a projekthez szükséges vendor könyvtár telepítése:
+A projekt könyvtárba belépve a projekthez szükséges vendor könyvtár telepítése:
 ```console
 docker run --rm \
 -u "$(id -u):$(id -g)" \
@@ -21,7 +21,7 @@ docker run --rm \
 laravelsail/php83-composer:latest \
 composer install --ignore-platform-reqs
 ```
-+ VS Code-ban a wsl bővítmény telepítése után megnyitva a projektet, majd egy terminál ablakban beírva:
+VS Code-ban a wsl bővítmény telepítése után megnyitva a projektet, majd egy terminál ablakban beírva:
 ```console
 ./vendor/bin/sail up
 ```
@@ -41,4 +41,4 @@ végül
 ```console
 ./vendor/bin/sail artisan storage:link
 ```
-+ http://localhost érhető el a weboldal.
+http://localhost érhető el a weboldal.
