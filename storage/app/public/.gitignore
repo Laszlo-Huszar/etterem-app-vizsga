@@ -1,0 +1,6 @@
+*
+!food-item-images
+!food-item-images/*
+!welcome-images
+!welcome-images/*
+!.gitignore
