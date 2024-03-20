@@ -55,6 +55,14 @@ class ProfileController extends Controller
 
         Auth::logout();
 
+
+        foreach ($user->orders as $order) {
+            if ($order->user_id === $user->id) {
+                $order->user_id = null;
+                $order->save();
+            }
+        }
+
         $user->delete();
 
         $request->session()->invalidate();
