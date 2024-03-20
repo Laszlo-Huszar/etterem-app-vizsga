@@ -33,7 +33,7 @@ majd egy másik terminál ablakban:
 ```console
 ./vendor/bin/sail npm run dev
 ```
-ezután a projekt beállításai egy harmadik terminál ablakban:
+ezután az adatbázis táblák létrehozása egy harmadik terminál ablakban:
 ```console
 ./vendor/bin/sail artisan migrate:fresh --seed
 ```
