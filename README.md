@@ -1,3 +1,6 @@
+Szofver dokumentáció:
+https://github.com/Laszlo-Huszar/etterem-app-vizsga/blob/main/szoftver-dokumentacio.pdf
+
 A weboldal elérhető a https://d2n74krpt0dbll.cloudfront.net/ linken.
 
 ### A fejlesztői környezethez szükséges szoftverek
