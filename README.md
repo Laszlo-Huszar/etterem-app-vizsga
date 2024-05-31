@@ -1,4 +1,4 @@
-[Szofver dokumentáció](https://github.com/Laszlo-Huszar/etterem-app-vizsga/blob/main/szoftver-dokumentacio.pdf)
+[Szoftver dokumentáció](https://github.com/Laszlo-Huszar/etterem-app-vizsga/blob/main/szoftver-dokumentacio.pdf)
 
 A weboldal elérhető a https://d1pxvrlam66y8a.cloudfront.net linken.
 
