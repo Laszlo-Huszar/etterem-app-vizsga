@@ -1,6 +1,6 @@
 [Szofver dokumentáció](https://github.com/Laszlo-Huszar/etterem-app-vizsga/blob/main/szoftver-dokumentacio.pdf)
 
-[A weboldal elérhető a](https://d1pxvrlam66y8a.cloudfront.net linken).
+A weboldal elérhető a https://d1pxvrlam66y8a.cloudfront.net linken.
 
 ### A fejlesztői környezethez szükséges szoftverek
 Docker Desktop: Windows rendszereken szükséges telepíteni a dockerhez a wsl linux futtatói környezetet. Adminisztrátorként megnyitva egy command promptot:
