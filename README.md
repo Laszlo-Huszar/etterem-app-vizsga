@@ -1,4 +1,6 @@
-[Szoftver dokumentáció](szoftver-dokumentacio.pdf "download")
+<a href="data:application/octet-stream,DATA" download="szoftver-dokumentacio.pdf">Szoftver dokumentáció</a>
+
+[Szoftver dokumentáció](szoftver-dokumentacio.pdf)
 
 A weboldal elérhető a https://d1pxvrlam66y8a.cloudfront.net linken.
 
